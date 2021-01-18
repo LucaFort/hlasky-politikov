@@ -104,7 +104,7 @@ button:active {
 }
 
 .igor {
-  background-image:url("img//igor.jpeg");
+  background-image:url("img//Igor.jpeg");
   border-radius: 2%;
   background-size: cover;
   height: 300px;
@@ -114,7 +114,7 @@ button:active {
 }
 
 .andrej {
-  background-image:url("img//andrej.jpg");
+  background-image:url("img//Andrej.jpg");
   border-radius: 2%;
   background-size: cover;
   height: 300px;
@@ -124,7 +124,7 @@ button:active {
 }
 
 .ivan {
-  background-image:url("img//ivan.jpg");
+  background-image:url("img//Ivan.jpg");
   border-radius: 2%;
   background-size: cover;
   height: 300px;
@@ -134,7 +134,7 @@ button:active {
 }
 
 .martin {
-  background-image:url("img//martin.jpg");
+  background-image:url("img//Martin.jpg");
   border-radius: 2%;
   background-size: cover;
   height: 300px;
