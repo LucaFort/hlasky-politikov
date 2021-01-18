@@ -6,7 +6,7 @@ const quotes = [
     },
     {
         name: "Ivan Gašparovič",
-        quote: "Organizácia spojených nádorov, názorov",
+        quote: "Organizácia spojených nádorov, názorov...",
         image: "ivan"
     },
     {
@@ -91,7 +91,7 @@ const quotes = [
     },
     {
         name: "Igor Matovič",
-        quote: "Pán poslanec Ľuboš Blaha, je prabda, že ste ako opitý mydlili barana a ešte ste sa chválili, aký to bol zážitok?",
+        quote: "Pán poslanec Ľuboš Blaha, je pravda, že ste ako opitý mydlili barana a ešte ste sa chválili, aký to bol zážitok?",
         image: "igor"
     },
     {
