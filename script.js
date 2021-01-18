@@ -85,7 +85,7 @@ const quotes = [
         image: "ivan"
     },
     {
-        name: "Ján Slova",
+        name: "Ján Slota",
         quote: "To bol, to nebola zlodejina, to bola, to bol galaktický lup",
         image: "jan"
     },
