@@ -120,5 +120,5 @@ function displayQuote(){
     quoteImage.setAttribute("class", quotes[number].image);
 }
 
-
+displayQuote();
  
