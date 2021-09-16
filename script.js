@@ -110,8 +110,21 @@ const quoteBtn = document.querySelector("#button-quote");
 const quoteTxt = document.querySelector("#quoteTxt");
 const quoteAuthor = document.querySelector("#quoteAuthor");
 const quoteImage = document.querySelector("#quoteImage");
+const shareQuoteBtn = document.querySelector("#facebook")
 
 quoteBtn.addEventListener("click", displayQuote);
+shareQuoteBtn.addEventListener("click", shareQuote);
+
+// // Tweet Quote
+// function tweetQuote() {
+//     const quote = quoteText.innerText;
+//     const author = authorText.innerText;
+//     const twitterUrl = `https://twitter.com/intent/tweet?text=${quote} - ${author}`;
+//     window.open(twitterUrl, '_blank');
+//}
+
+
+
 
 function displayQuote(){
     let number = Math.floor(Math.random() * quotes.length);
@@ -120,5 +133,11 @@ function displayQuote(){
     quoteImage.setAttribute("class", quotes[number].image);
 }
 
+function shareQuote() {
+    const facebookUrl = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flucafort.github.io%2Fhlasky-politikov&amp;src=sdkpreparse";
+    window.open(facebookUrl, '_blank');
+}
+
+// On Load
 displayQuote();
  
