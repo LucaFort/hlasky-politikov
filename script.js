@@ -110,7 +110,7 @@ const quoteBtn = document.querySelector("#button-quote");
 const quoteTxt = document.querySelector("#quoteTxt");
 const quoteAuthor = document.querySelector("#quoteAuthor");
 const quoteImage = document.querySelector("#quoteImage");
-const shareQuoteBtn = document.querySelector("#facebook")
+const shareQuoteBtn = document.querySelector("#facebook");
 
 quoteBtn.addEventListener("click", displayQuote);
 shareQuoteBtn.addEventListener("click", shareQuote);
